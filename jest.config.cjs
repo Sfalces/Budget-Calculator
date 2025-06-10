@@ -16,6 +16,6 @@ module.exports = {
     '^core/(.*)$': '<rootDir>/src/core/$1',
     '^ui/(.*)$': '<rootDir>/src/ui/$1',
     '^_di/(.*)$': '<rootDir>/src/_di/$1',
-    '\\.(css|less|scss|sass)$': 'identity-obj-proxy'
+    '\\.(css|less|scss|sass)$': '<rootDir>/__mocks__/styleMock.js'
   }
 }
